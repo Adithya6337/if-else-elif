@@ -1,0 +1,6 @@
+sum=0   
+ While input is greater than 0:  
+   N=N%10 
+   sum=sum*10+num
+   num=n/10 
+ print(num)
