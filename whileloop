@@ -1,11 +1,11 @@
 #! /usr/bin/bash
 
-adithya=100
-devika=100
-if [ $adithya -gt $devika ]
+adithya=200
+devika=500
+if [ $adithya -le $devika ]
  then
   echo "condition is true"
-elif [ $adithya -lt $devika ]
+elif [ $adithya -ge $devika ]
  then
   echo "condition is false"
 else
