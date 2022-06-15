@@ -1,0 +1,13 @@
+#! /usr/bin/bash
+
+adithya=100
+devika=100
+if [ $adithya -gt $devika ]
+ then
+  echo "condition is true"
+elif [ $adithya -lt $devika ]
+ then
+  echo "condition is false"
+else
+echo "condition is equal"
+fi
